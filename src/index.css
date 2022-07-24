@@ -80,6 +80,10 @@ section {
   height: 100vh;
 }
 
+.--mh-100vh {
+  min-height: 100vh;
+}
+
 /* Grid */
 .--grid-15 {
   display: grid;
@@ -373,6 +377,9 @@ p {
 .--width-100 {
   width: 100%;
 }
+.--width-500px {
+  width: 500px;
+}
 
 .--line {
   position: relative;
@@ -393,4 +400,32 @@ p {
     rgba(163, 1, 191, 1) 44%,
     rgba(217, 8, 170, 1) 57%
   );
+}
+
+.--list-style-none {
+  list-style: none;
+}
+
+.--profile-img {
+  width: 6rem;
+  height: 6rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+a {
+  font-size: 1.4rem;
+  color: var(--dark-blue);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: var(--color-dark);
+  font-size: 1.5rem;
+}
+
+.--align-center {
+  display: flex;
+  align-items: center;
 }
